@@ -1,0 +1,14 @@
+INSERT INTO `user_types`(`type_name`) VALUES ('admin');
+INSERT INTO `user_types`(`type_name`) VALUES ('customer');
+----------------------------------------------------------------------user_types
+
+INSERT INTO `order_statuses`(`status_name`) VALUES ("Processing");
+INSERT INTO `order_statuses`(`status_name`) VALUES ("Shipped");
+INSERT INTO `order_statuses`(`status_name`) VALUES ("Delivered");
+
+-------------------------------------------------------- product order status
+
+INSERT INTO `categories`(`cat_name`) VALUES ("Category1");
+INSERT INTO `categories`(`cat_name`) VALUES ("Category2");
+INSERT INTO `categories`(`cat_name`) VALUES ("Category3");
+------------------------------------------------------------product category
